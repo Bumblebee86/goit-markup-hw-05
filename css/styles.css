@@ -310,19 +310,14 @@ img {
 .overlay {
     content: "";
     position: absolute;
-    top: 0;
-    /* font-size: 18px;
-    line-height: 1.56; */
-    /* color: var(--color-accent-two); */
+    /* top: 0; */
     width: 370px;
     height: 294px;
-    /* padding: 63px 24px; */
-    /* background-color:rgba(33, 150, 243, 0.9); */
     opacity: 0;
     overflow: hidden;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
 }
 
 .thumbs:hover,
@@ -333,7 +328,7 @@ img {
 
 .thumbs:hover .overlay {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-100%);
 }
 
 .article-post {
