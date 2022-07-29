@@ -640,11 +640,9 @@ img {
     height: 30px;
     padding: 0;
     cursor: pointer;
-}
-
-.icon-close {
-    /* display: block; */
-    /* fill: var(--color-accent); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-project {
